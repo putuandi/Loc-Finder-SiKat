@@ -1,0 +1,51 @@
+body {
+    min-height: 200vh;
+  }
+  
+  section{
+      padding-top: 4rem;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Atur lebar kontainer kotak */
+    height: 50px; /* Atur tinggi kontainer kotak */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    border: none; /* Atur tampilan border kotak */
+    overflow: hidden; /* Hindari gambar melebihi batas kontainer */
+  }
+  
+  .image-container img {
+    max-width: 80%; /* Atur lebar gambar agar mengisi kontainer kotak */
+    max-height: 80%; /* Atur tinggi gambar agar menjaga proporsi */
+    object-fit: contain; /* Mengisi seluruh kotak dengan gambar */
+  }
+  
+  .footer-column h2 {
+    padding-top: 20px;
+    color: #fcfcfc;
+  }
+  .footer-column h3 {
+    padding-top: 30px;
+    color: #fcfcfc;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column a {
+    text-decoration: none;
+    color: #666;
+  }
+  
